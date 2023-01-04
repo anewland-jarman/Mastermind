@@ -2,7 +2,10 @@ import pygame
 import random
 import sys
 import pickle
+import os
 
+# Get the current working directory
+cwd = os.getcwd()
 # Initialize pygame
 pygame.init()
 
